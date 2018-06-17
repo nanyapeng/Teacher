@@ -1,0 +1,22 @@
+[ 2018-04-26T21:10:21+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000493s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000841s ]
+
+[ 2018-04-26T21:10:27+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000872s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0165s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-26T22:34:57+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-26T22:35:01+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-26T22:35:03+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+

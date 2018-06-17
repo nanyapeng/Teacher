@@ -1,0 +1,283 @@
+[ 2018-03-26T00:02:15+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000838s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T00:02:19+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000806s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0178s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '贺阳飞' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-26T00:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000909s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T00:06:09+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000957s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '贺阳' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 25 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('贺阳','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0017s ]
+
+[ 2018-03-26T00:10:13+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+ERR: syntax error, unexpected '$this' (T_VARIABLE)
+
+[ 2018-03-26T00:10:31+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000821s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '贺阳飞' ) LIMIT 1   [ RunTime:0.0004s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('贺阳飞','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0022s ]
+
+[ 2018-03-26T00:16:48+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000709s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '雷繁' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('雷繁','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0015s ]
+
+[ 2018-03-26T00:22:58+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000500s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000896s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '南亚鹏' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('南亚鹏','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0015s ]
+
+[ 2018-03-26T00:25:39+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000914s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '春哥' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('春哥','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0015s ]
+
+[ 2018-03-26T00:26:47+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000469s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '没谁' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('没谁','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0016s ]
+
+[ 2018-03-26T00:30:57+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000794s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0071s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `te_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-26T00:31:16+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000822s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '小飞' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('小飞','0cc175b9c0f1b6a831c399e269772661') [ RunTime:0.0017s ]
+
+[ 2018-03-26T00:35:50+08:00 ] 127.0.0.1 /index.php/admin/charts-1.html
+ERR: 无法加载控制器:Charts-1
+
+[ 2018-03-26T00:38:38+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000466s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0070s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '小飞飞' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('小飞飞','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0018s ]
+
+[ 2018-03-26T00:38:57+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000498s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000828s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '小飞飞' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T00:39:03+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000808s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0195s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '小飞飞费' ) LIMIT 1   [ RunTime:0.0005s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('小飞飞费','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0021s ]
+
+[ 2018-03-26T00:39:46+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '小贺' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('小贺','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0016s ]
+
+[ 2018-03-26T00:40:23+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000807s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0069s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '小阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('小阳飞','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0018s ]
+
+[ 2018-03-26T00:41:04+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000383s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000678s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '小雷' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('小雷','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0048s ]
+
+[ 2018-03-26T00:43:23+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '贺阳飞' ) LIMIT 1   [ RunTime:0.0002s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('贺阳飞','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0015s ]
+
+[ 2018-03-26T00:45:30+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000814s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '雷繁' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('雷繁','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0017s ]
+
+[ 2018-03-26T00:50:06+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-03-26T00:50:13+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-03-26T00:50:30+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000461s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000776s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '南亚鹏' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('南亚鹏','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0016s ]
+
+[ 2018-03-26T19:22:43+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000483s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0061s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0035s ]
+SQL: SELECT * FROM `te_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-03-26T23:05:30+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000512s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0098s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0063s ]
+SQL: SELECT * FROM `te_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-03-26T23:10:32+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000591s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001017s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0065s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '王春生' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('王春生','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0022s ]
+
+[ 2018-03-26T23:36:36+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/member-add.html
+ERR: 非法操作:member-add
+
+[ 2018-03-26T23:36:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/change-password.html
+ERR: 非法操作:change-password
+
+[ 2018-03-26T23:44:26+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit.html
+ERR: 模板不存在:./Application/Admin/View/Teacher/teacher-edit.html
+
+[ 2018-03-26T23:44:35+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit.html
+ERR: 模板不存在:./Application/Admin/View/Teacher/teacher-edit.html
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui/css/H-ui.min.css
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:40+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/Hui-iconfont/1.0.8/iconfont.css
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui.admin/css/H-ui.admin.css
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui.admin/skin/default/skin.css
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui.admin/css/style.css
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/jquery/1.9.1/jquery.min.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/layer/2.4/layer.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui/js/H-ui.min.js
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/static/h-ui.admin/js/H-ui.admin.js
+ERR: 非法操作:static
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/jquery.validation/1.14.0/jquery.validate.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/jquery.validation/1.14.0/validate-methods.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:44:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/lib/jquery.validation/1.14.0/messages_zh.js
+ERR: 非法操作:lib
+
+[ 2018-03-26T23:53:13+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/index.html
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2018-03-26T23:53:15+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/index.html
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+
+[ 2018-03-26T23:53:57+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/index.html
+ERR: syntax error, unexpected ';', expecting ',' or ')'
+

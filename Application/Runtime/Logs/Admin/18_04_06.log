@@ -1,0 +1,132 @@
+[ 2018-04-06T21:09:48+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000456s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-04-06T21:27:02+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0268s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0083s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2018-04-06T21:39:51+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000484s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0187s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0012s ]
+
+[ 2018-04-06T21:42:16+08:00 ] 127.0.0.1 /index.php/Admin/Tchange/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000446s ]
+SQL: SHOW COLUMNS FROM `te_tchange` [ RunTime:0.0139s ]
+SQL: UPDATE `te_tchange` SET `name`='郭新明',`title`='高效提升学生动手能力改革项目',`code`='112121212',`money`='30000',`time`='2017-04-06',`remark`='																		' WHERE `id` = 1 [ RunTime:0.0028s ]
+
+[ 2018-04-06T21:43:01+08:00 ] 127.0.0.1 /index.php/Admin/Tchange/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+SQL: SHOW COLUMNS FROM `te_tchange` [ RunTime:0.0120s ]
+SQL: UPDATE `te_tchange` SET `name`='赵娟',`title`='提升代码编写能力',`code`='12121212',`money`='22000',`time`='2018-01-16',`remark`='																											' WHERE `id` = 2 [ RunTime:0.0018s ]
+
+[ 2018-04-06T21:45:27+08:00 ] 127.0.0.1 /index.php/Admin/Book/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000455s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0130s ]
+SQL: UPDATE `te_book` SET `teacher`='郭新明',`title`='php从入门到放弃',`isbn`='1222222221',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`remark`='																											' WHERE `id` = 1 [ RunTime:0.0016s ]
+
+[ 2018-04-06T21:46:14+08:00 ] 127.0.0.1 /index.php/Admin/Book/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000547s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0121s ]
+SQL: UPDATE `te_book` SET `teacher`='郭新明',`title`='php从入门到放弃',`author`='郭新明，贺阳飞 ',`isbn`='1222222221',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`remark`='																																				' WHERE `id` = 1 [ RunTime:0.0018s ]
+
+[ 2018-04-06T21:46:21+08:00 ] 127.0.0.1 /index.php/admin/picture-list.html
+ERR: 无法加载控制器:Picture-list
+
+[ 2018-04-06T21:47:29+08:00 ] 127.0.0.1 /index.php/admin/charts-1.html
+ERR: 无法加载控制器:Charts-1
+
+[ 2018-04-06T22:02:31+08:00 ] 127.0.0.1 /index.php/Admin/Paper/index.html
+ERR: 1146:Table 'teacher.te_paper' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_paper`
+
+[ 2018-04-06T22:02:32+08:00 ] 127.0.0.1 /index.php/Admin/Keyan/index.html
+ERR: 1146:Table 'teacher.te_keyan' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_keyan`
+
+[ 2018-04-06T22:02:32+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanli/index.html
+ERR: 1146:Table 'teacher.te_zhaunli' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_zhaunli`
+
+[ 2018-04-06T22:02:33+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanzhu/index.html
+ERR: 1146:Table 'teacher.te_zhuanzhu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_zhuanzhu`
+
+[ 2018-04-06T22:02:33+08:00 ] 127.0.0.1 /index.php/Admin/Kyget/index.html
+ERR: 1146:Table 'teacher.te_kyget' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_kyget`
+
+[ 2018-04-06T22:02:34+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanzhu/index.html
+ERR: 1146:Table 'teacher.te_zhuanzhu' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_zhuanzhu`
+
+[ 2018-04-06T22:04:45+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanli/index.html
+ERR: 1146:Table 'teacher.te_zhaunli' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_zhaunli`
+
+[ 2018-04-06T22:04:46+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanli/index.html
+ERR: 1146:Table 'teacher.te_zhaunli' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_zhaunli`
+
+[ 2018-04-06T22:31:30+08:00 ] 127.0.0.1 /index.php/Admin/Paper/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000464s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0120s ]
+SQL: INSERT INTO `te_paper` (`teacher`,`id`,`title`,`author`,`num`,`publish`,`time`,`remark`) VALUES ('郭新明','0','论雷繁有多皮','郭新明，赵娟','4000','咸阳师范学院出版社','2018-04-02','									') [ RunTime:0.0021s ]
+
+[ 2018-04-06T22:33:12+08:00 ] 127.0.0.1 /index.php/Admin/Paper/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0122s ]
+SQL: INSERT INTO `te_paper` (`teacher`,`id`,`title`,`author`,`type`,`keyword`,`num`,`publish`,`time`,`remark`) VALUES ('郭新明','0','论雷繁有多皮','郭新明，赵娟','zz','雷繁真的皮','6000','咸阳师范学院出版社','2018-04-02','									') [ RunTime:0.0018s ]
+
+[ 2018-04-06T22:47:11+08:00 ] 127.0.0.1 /index.php/Admin/Keyan/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+SQL: SHOW COLUMNS FROM `te_keyan` [ RunTime:0.0118s ]
+SQL: INSERT INTO `te_keyan` (`name`,`id`,`title`,`code`,`deep`,`money`,`time`,`remark`) VALUES ('郭新明','0','研究科研项目','111111','国家级科研项目','100000','2018-04-02','									') [ RunTime:0.0018s ]
+
+[ 2018-04-06T23:07:42+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanli/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000448s ]
+SQL: SHOW COLUMNS FROM `te_zhuanli` [ RunTime:0.0114s ]
+SQL: INSERT INTO `te_zhuanli` (`name`,`id`,`title`,`code`,`type`,`time`,`remark`) VALUES ('郭新明','0','咸阳师范学院课本外观专利','111111111','外观专利','2018-04-03','									') [ RunTime:0.0047s ]
+
+[ 2018-04-06T23:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Kyget/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `te_kyget` [ RunTime:0.0123s ]
+SQL: INSERT INTO `te_kyget` (`id`,`title`,`code`,`deep`,`content`,`time`,`remark`) VALUES ('0','论雷繁有多皮','11111111','二等奖','现金2000元','2018-04-03','									') [ RunTime:0.0017s ]
+
+[ 2018-04-06T23:15:36+08:00 ] 127.0.0.1 /index.php/Admin/Kyget/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000265s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000458s ]
+SQL: SHOW COLUMNS FROM `te_kyget` [ RunTime:0.0120s ]
+SQL: UPDATE `te_kyget` SET `name`='郭新明',`title`='论雷繁有多皮',`code`='11111111',`deep`='二等奖',`content`='现金2000元',`time`='2018-04-03',`remark`='																		' WHERE `id` = 2 [ RunTime:0.0019s ]
+

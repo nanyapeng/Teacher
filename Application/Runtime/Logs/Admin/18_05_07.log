@@ -1,0 +1,8 @@
+[ 2018-05-07T14:09:20+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000305s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0276s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0015s ]
+

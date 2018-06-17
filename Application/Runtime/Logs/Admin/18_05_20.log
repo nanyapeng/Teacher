@@ -1,0 +1,514 @@
+[ 2018-05-20T11:31:18+08:00 ] 127.0.0.1 /index.php/Admin/Setting/email.html
+ERR: 1146:Table 'teacher.te_emial' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_emial`
+
+[ 2018-05-20T11:31:23+08:00 ] 127.0.0.1 /index.php/Admin/Setting/email.html
+ERR: 1146:Table 'teacher.te_emial' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_emial`
+
+[ 2018-05-20T11:31:38+08:00 ] 127.0.0.1 /index.php/Admin/Setting/email.html
+ERR: 1146:Table 'teacher.te_emial' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_emial`
+
+[ 2018-05-20T11:56:17+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+ERR: 1146:Table 'teacher.te_base' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_base`
+
+[ 2018-05-20T11:57:21+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000303s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000521s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0149s ]
+SQL: INSERT INTO `te_base_score` (`deep`,`base_score`) VALUES ('1','60') [ RunTime:0.0018s ]
+
+[ 2018-05-20T11:58:30+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0133s ]
+SQL: INSERT INTO `te_base_score` (`deep`,`base_score`) VALUES ('2','50') [ RunTime:0.0018s ]
+
+[ 2018-05-20T11:58:37+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000509s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0138s ]
+SQL: INSERT INTO `te_base_score` (`deep`,`base_score`) VALUES ('3','40') [ RunTime:0.0017s ]
+
+[ 2018-05-20T12:01:19+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0150s ]
+SQL: INSERT INTO `te_base_score` (`deep`,`base_score`,`remark`) VALUES ('1','60','试一下') [ RunTime:0.0018s ]
+
+[ 2018-05-20T12:02:26+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000572s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0156s ]
+NOTIC: [8] Undefined variable: set C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+
+[ 2018-05-20T12:02:28+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000525s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0137s ]
+NOTIC: [8] Undefined variable: set C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+
+[ 2018-05-20T12:02:29+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000313s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0142s ]
+NOTIC: [8] Undefined variable: set C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+
+[ 2018-05-20T12:03:19+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000627s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0141s ]
+NOTIC: [8] Undefined variable: set C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+
+[ 2018-05-20T12:03:27+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000506s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0199s ]
+NOTIC: [8] Undefined variable: set C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+
+[ 2018-05-20T12:03:28+08:00 ] 127.0.0.1 /index.php/Admin/Tj/set.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000520s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0091s ]
+NOTIC: [8] Undefined variable: set C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+NOTIC: [2] implode(): Invalid arguments passed C:\Php\Web\teacher\ThinkPHP\Library\Think\Db\Driver.class.php 第 387 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'WHERE `id` = 1' at line 1
+ [ SQL语句 ] : UPDATE `te_base_score` SET  WHERE `id` = 1
+
+[ 2018-05-20T12:03:58+08:00 ] 127.0.0.1 /index.php/Admin/Tj/del.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `te_base_score` [ RunTime:0.0153s ]
+SQL: DELETE FROM `te_base_score` WHERE `id` = 1 [ RunTime:0.0017s ]
+
+[ 2018-05-20T12:11:27+08:00 ] 127.0.0.1 /index.php/Admin/Tj/score/id/6.html
+ERR: 非法操作:score
+
+[ 2018-05-20T12:11:54+08:00 ] 127.0.0.1 /index.php/Admin/Tj/score/id/6.html
+ERR: 非法操作:score
+
+[ 2018-05-20T12:20:34+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000289s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0141s ]
+SQL: UPDATE `te_teacher` SET `gender`='1',`birthday`='2018-05-20',`phone`='13572234333',`email`='1969788109@qq.com',`address`='咸阳师范学院',`study`='2',`deep`='3',`jointime`='2018-05-20',`remark`='' WHERE `id` = 6 [ RunTime:0.0017s ]
+
+[ 2018-05-20T12:20:51+08:00 ] 127.0.0.1 /index.php/Admin/Tj/score/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0134s ]
+SQL: UPDATE `te_teacher` SET `score`='75' WHERE `id` = 6 [ RunTime:0.0017s ]
+
+[ 2018-05-20T12:29:02+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: 1054:Unknown column 'score' in 'field list'
+ [ SQL语句 ] : SELECT `score` FROM `te_base_score` WHERE ( deep ='' ) LIMIT 1  
+
+[ 2018-05-20T12:29:40+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: 1054:Unknown column 'score' in 'field list'
+ [ SQL语句 ] : SELECT `score` FROM `te_base_score` WHERE ( deep ='3' ) LIMIT 1  
+
+[ 2018-05-20T12:29:41+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: 1054:Unknown column 'score' in 'field list'
+ [ SQL语句 ] : SELECT `score` FROM `te_base_score` WHERE ( deep ='3' ) LIMIT 1  
+
+[ 2018-05-20T12:48:48+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000514s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0137s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 30 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('贺阳飞','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0018s ]
+
+[ 2018-05-20T12:49:35+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000326s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-20T12:49:52+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000532s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0148s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-20T12:50:46+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000419s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000759s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '赵娟' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 30 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('赵娟','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0018s ]
+
+[ 2018-05-20T12:52:58+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000512s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '雷繁' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 30 行.
+
+[ 2018-05-20T12:54:27+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000312s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000544s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = 'aaa' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 31 行.
+
+[ 2018-05-20T12:55:10+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000535s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0165s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '雷繁' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('雷繁','e10adc3949ba59abbe56e057f20f883e') [ RunTime:0.0016s ]
+
+[ 2018-05-20T12:55:26+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+
+[ 2018-05-20T12:55:31+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000533s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0142s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0093s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-20T12:58:50+08:00 ] 127.0.0.1 /index.php/admin/index
+ERR: syntax error, unexpected '<'
+
+[ 2018-05-20T13:00:45+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/changepassword/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000523s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0137s ]
+SQL: UPDATE `te_teacher` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 8 [ RunTime:0.0017s ]
+
+[ 2018-05-20T13:00:54+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/changepassword/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000643s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0144s ]
+SQL: UPDATE `te_teacher` SET `password`='f6b728af8f280cdab5a7b3bbad84d14a' WHERE `id` = 8 [ RunTime:0.0018s ]
+
+[ 2018-05-20T13:02:06+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000656s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0158s ]
+SQL: UPDATE `te_teacher` SET `gender`='1',`birthday`='1995-02-24',`phone`='17629016177',`email`='17629016177@163.com',`address`='西安市灞桥区柳亭路柳林居',`study`='2',`deep`='1',`jointime`='2017-05-20',`remark`='' WHERE `id` = 8 [ RunTime:0.0017s ]
+
+[ 2018-05-20T13:04:31+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000366s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000629s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0171s ]
+SQL: SELECT * FROM `te_lesson` WHERE ( code = '12345665' ) LIMIT 1   [ RunTime:0.0004s ]
+SQL: INSERT INTO `te_lesson` (`id`,`name`,`title`,`code`,`score`,`exam`,`class`,`classroom`,`time`,`start`,`end`,`avg_score`,`remark`) VALUES ('0','贺阳飞','php从入门到放弃','12345665','4','2','物联1401','1-302,3-312','周二,周四','第三周','第十二周','72','							') [ RunTime:0.0016s ]
+
+[ 2018-05-20T13:07:09+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000364s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000623s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0148s ]
+SQL: SELECT * FROM `te_lesson` WHERE ( code = '133321221' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `te_lesson` (`id`,`name`,`title`,`code`,`score`,`exam`,`class`,`classroom`,`time`,`start`,`end`,`avg_score`,`remark`) VALUES ('0','贺阳飞','mysql与php','133321221','2','1','物联1402','3-304,3-216','周三，周五','第二周','第二周','80','							') [ RunTime:0.0018s ]
+
+[ 2018-05-20T13:12:00+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000621s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0172s ]
+SQL: SELECT * FROM `te_gsign` WHERE ( num_id = '1410104107' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-20T13:12:26+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `te_gsign` WHERE ( num_id = '1410104107' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-20T13:12:28+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000557s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000848s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0143s ]
+SQL: SELECT * FROM `te_gsign` WHERE ( num_id = '1410104107' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-20T13:12:39+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0156s ]
+SQL: SELECT * FROM `te_gsign` WHERE ( num_id = '1410104107' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-20T13:13:15+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0149s ]
+SQL: SELECT * FROM `te_gsign` WHERE ( num_id = '1410104105' ) LIMIT 1   [ RunTime:0.0002s ]
+SQL: INSERT INTO `te_gsign` (`stu_name`,`id`,`num_id`,`class`,`phone`,`title`,`name`,`score`,`remark`) VALUES ('雷繁','0','1410104105','物联1401','18291004121','网上商城系统的设计与实现','赵娟','91','									') [ RunTime:0.0017s ]
+
+[ 2018-05-20T13:14:46+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0154s ]
+SQL: UPDATE `te_gsign` SET `stu_name`='雷繁',`num_id`='1410104105',`class`='物联1401',`phone`='18291004121',`title`='网上商城系统的设计与实现',`name`='贺阳飞',`score`='91',`remark`='																		' WHERE `id` = 6 [ RunTime:0.0020s ]
+
+[ 2018-05-20T13:16:22+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000602s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0146s ]
+SQL: SELECT * FROM `te_lsign` WHERE ( num_id = '1410104105' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-20T13:16:47+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000526s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `te_lsign` WHERE ( num_id = '1410104105' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `te_lsign` (`stu_name`,`id`,`num_id`,`class`,`phone`,`title`,`score`,`start`,`end`,`remark`) VALUES ('雷繁','0','1410104105','物联1402','18291004121','收集播放器的设计与实现','93','2017-04-17','2017-04-21','									') [ RunTime:0.0019s ]
+
+[ 2018-05-20T13:17:13+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0143s ]
+SQL: UPDATE `te_lsign` SET `stu_name`='雷繁',`num_id`='1410104105',`class`='物联1402',`phone`='18291004121',`title`='收集播放器的设计与实现',`name`='贺阳飞',`score`='93',`start`='2017-04-17',`end`='2017-04-21',`remark`='																		' WHERE `id` = 4 [ RunTime:0.0020s ]
+
+[ 2018-05-20T13:19:05+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000699s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0158s ]
+SQL: SELECT * FROM `te_lsign` WHERE ( num_id = '1410104106' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `te_lsign` (`stu_name`,`id`,`num_id`,`class`,`phone`,`title`,`name`,`score`,`start`,`end`,`remark`) VALUES ('张洁','0','1410104106','物联1401','13212124443','手机播放器的设计与实现','贺阳飞','91','2017-04-17','2017-04-21','									') [ RunTime:0.0017s ]
+
+[ 2018-05-20T13:19:18+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000528s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0149s ]
+SQL: UPDATE `te_lsign` SET `stu_name`='雷繁',`num_id`='1410104105',`class`='物联1402',`phone`='18291004121',`title`='手机播放器的设计与实现',`name`='贺阳飞',`score`='93',`start`='2017-04-17',`end`='2017-04-21',`remark`='																											' WHERE `id` = 4 [ RunTime:0.0019s ]
+
+[ 2018-05-20T13:20:21+08:00 ] 127.0.0.1 /index.php/Admin/Tchange/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `te_tchange` [ RunTime:0.0135s ]
+SQL: INSERT INTO `te_tchange` (`name`,`id`,`title`,`code`,`money`,`time`,`remark`) VALUES ('贺阳飞','0','提升学生逻辑思维能力','313131113','5000','2017-04-20','									') [ RunTime:0.0020s ]
+
+[ 2018-05-20T13:23:58+08:00 ] 127.0.0.1 /index.php/Admin/Paper/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000367s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0144s ]
+SQL: INSERT INTO `te_paper` (`name`,`id`,`title`,`author`,`type`,`keyword`,`num`,`publish`,`time`,`remark`,`file`) VALUES ('贺阳飞','0','提升高校教师业绩管理水平','贺阳飞，雷繁','zz','教师，业绩，软件','20456','咸阳师范学院出版社','2017-03-16','									','') [ RunTime:0.0021s ]
+
+[ 2018-05-20T13:24:49+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000517s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0137s ]
+SQL: UPDATE `te_paper` SET `name`='贺阳飞',`title`='提升高校教师业绩管理水平',`author`='贺阳飞，雷繁',`type`='zz',`keyword`='教师，业绩，软件',`num`='20456',`publish`='咸阳师范学院出版社',`time`='2017-03-16',`remark`='																		',`file`='' WHERE `id` = 2 [ RunTime:0.0022s ]
+
+[ 2018-05-20T13:25:09+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000291s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0139s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_paper` SET `name`='贺阳飞',`title`='提升高校教师业绩管理水平',`author`='贺阳飞，雷繁',`type`='zz',`keyword`='教师，业绩，软件',`num`='20456',`publish`='咸阳师范学院出版社',`time`='2017-03-16',`remark`='																											',`file`='Uploads/Paper/2018-05-20/5b0106b5cabad.txt' WHERE `id` = 2 [ RunTime:0.0018s ]
+
+[ 2018-05-20T13:26:56+08:00 ] 127.0.0.1 /index.php/Admin/Keyan/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000659s ]
+SQL: SHOW COLUMNS FROM `te_keyan` [ RunTime:0.0141s ]
+SQL: INSERT INTO `te_keyan` (`name`,`id`,`title`,`code`,`deep`,`money`,`time`,`remark`) VALUES ('贺阳飞','0','zigebee在无线通信领域的应用','1234567','校级','10000','2018-04-11','									') [ RunTime:0.0018s ]
+
+[ 2018-05-20T13:30:04+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanli/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000382s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000636s ]
+SQL: SHOW COLUMNS FROM `te_zhuanli` [ RunTime:0.0140s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `te_zhuanli` (`name`,`id`,`title`,`code`,`type`,`time`,`remark`,`file`) VALUES ('贺阳飞','0','双卡双待模组的设计','12121312','技术专利','2012-05-16','									','Uploads/Zhuanli/2018-05-20/5b0107dc7d62a.jpg') [ RunTime:0.0018s ]
+
+[ 2018-05-20T13:32:07+08:00 ] 127.0.0.1 /index.php/Admin/Book/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0137s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: INSERT INTO `te_book` (`id`,`title`,`author`,`isbn`,`cate`,`version`,`page`,`num`,`publish`,`time`,`remark`,`file`) VALUES ('0','php从入门到放弃','贺阳飞，雷繁等','21131313113','计算机，编程','1','5700','43221','明日科技出版社','2016-02-11','									','Uploads/Book/2018-05-20/5b010857c2bc2.pdf') [ RunTime:0.0054s ]
+
+[ 2018-05-20T13:33:27+08:00 ] 127.0.0.1 /index.php/Admin/Book/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000665s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0144s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_book` SET `name`='贺阳飞',`title`='php从入门到放弃',`author`='贺阳飞，雷繁等',`isbn`='2113131311',`cate`='计算机，编程',`version`='1',`page`='5700',`num`='43221',`publish`='明日科技出版社',`time`='2016-02-11',`remark`='																		',`file`='Uploads/Book/2018-05-20/5b0108a7bd656.pdf' WHERE `id` = 2 [ RunTime:0.0017s ]
+
+[ 2018-05-20T13:34:04+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `te_setting` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000561s ]
+
+[ 2018-05-20T13:34:11+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000398s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000666s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0135s ]
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0107s ]
+SQL: SELECT * FROM `te_setting` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000435s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000459s ]
+
+[ 2018-05-20T13:35:53+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0110s ]
+SQL: SELECT * FROM `te_setting` LIMIT 1   [ RunTime:0.0002s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-05-20T13:46:46+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000748s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0116s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-20T17:46:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0219s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-05-20T19:57:39+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000896s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001369s ]
+
+[ 2018-05-20T19:57:45+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000660s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001125s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0311s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0142s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-05-20T19:58:01+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000911s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001446s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0238s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0134s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-20T19:59:18+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001111s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0161s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-20T19:59:33+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001524s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002610s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0202s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0090s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-05-20T19:59:44+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000640s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001077s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0184s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-05-20T20:00:15+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001280s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002257s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0095s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-05-20T20:00:52+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/member-show.html
+ERR: 非法操作:member-show
+
+[ 2018-05-20T20:00:56+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/member-show.html
+ERR: 非法操作:member-show
+

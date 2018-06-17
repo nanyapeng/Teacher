@@ -1,0 +1,211 @@
+[ 2018-04-29T10:01:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000710s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0164s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0055s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-04-29T11:23:54+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000426s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0138s ]
+SQL: SELECT * FROM `te_lsign` WHERE ( num_id = '1410104107' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-04-29T11:25:45+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000935s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0192s ]
+SQL: SELECT * FROM `te_lsign` WHERE ( num_id = '1410104108' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `te_lsign` (`name`,`id`,`num_id`,`class`,`phone`,`title`,`teacher`,`score`,`start`,`end`,`remark`) VALUES ('贺阳飞','0','1410104108','物联1401','17629016177','计算器设计和实现','李小林','78','2018-04-02','2018-04-06','									') [ RunTime:0.0020s ]
+
+[ 2018-04-29T11:32:31+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000432s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0162s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='郭新明' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T11:39:31+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T11:39:46+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000737s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0130s ]
+SQL: UPDATE `te_lsign` SET `name`='张宇',`num_id`='1410104108',`class`='物联1401',`phone`='17629016177',`title`='计算器设计和实现',`teacher`='李小林',`score`='78',`start`='2018-04-02',`end`='2018-04-06',`remark`='																		' WHERE `id` = 3 [ RunTime:0.0019s ]
+
+[ 2018-04-29T11:42:53+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0249s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0131s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='郭新明' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T11:43:05+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0133s ]
+NOTIC: [8] Undefined index: file C:\Php\Web\teacher\Application\Admin\Controller\PaperController.class.php 第 47 行.
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='zz',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`file`='',`remark`='																																																																								' WHERE `id` = 1 [ RunTime:0.0016s ]
+
+[ 2018-04-29T11:45:01+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000732s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0131s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='zz',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`remark`='																																																																																	',`file`='Uploads/Paper/2018-04-29/5ae53fbd8ad7e.txt' WHERE `id` = 1 [ RunTime:0.0017s ]
+
+[ 2018-04-29T11:52:33+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T12:01:18+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000991s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0151s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '皮特' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('皮特','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0017s ]
+
+[ 2018-04-29T12:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/member-show.html
+ERR: 非法操作:member-show
+
+[ 2018-04-29T12:04:19+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000599s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001004s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='皮特' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T12:04:30+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000729s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0190s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0088s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='皮特' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T12:04:48+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000733s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0146s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0086s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T12:05:02+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/changepassword/id/7.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000719s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0204s ]
+SQL: UPDATE `te_teacher` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 7 [ RunTime:0.0017s ]
+
+[ 2018-04-29T12:05:19+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0128s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='皮特' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T12:06:41+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T12:25:28+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T12:25:28+08:00 ] 127.0.0.1 /index.php/admin/member-del.html
+ERR: 无法加载控制器:Member-del
+
+[ 2018-04-29T12:25:29+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T12:28:15+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-29T12:28:19+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T12:29:57+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000749s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-29T12:39:13+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/search.html
+ERR: 非法操作:search
+
+[ 2018-04-29T12:47:44+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/search.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '%'飞'% )' at line 1
+ [ SQL语句 ] : SELECT * FROM `te_teacher` WHERE ( name like %'飞'% ) 
+
+[ 2018-04-29T12:52:57+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T14:08:36+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-29T14:09:07+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-29T15:24:27+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/look_down.html
+ERR: 非法操作:look_down
+
+[ 2018-04-29T16:13:49+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T16:14:31+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T16:14:36+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T16:14:37+08:00 ] 127.0.0.1 /index.php/admin/member-del.html
+ERR: 无法加载控制器:Member-del
+
+[ 2018-04-29T16:14:38+08:00 ] 127.0.0.1 /index.php/admin/member-list.html
+ERR: 无法加载控制器:Member-list
+
+[ 2018-04-29T16:14:38+08:00 ] 127.0.0.1 /index.php/admin/member-del.html
+ERR: 无法加载控制器:Member-del
+
+[ 2018-04-29T16:15:25+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-29T16:15:27+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-29T16:15:42+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-29T16:29:43+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '==贺阳飞 ) LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `te_lesson` WHERE ( name ==贺阳飞 ) LIMIT 1  
+
+[ 2018-04-29T16:29:57+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: 1054:Unknown column '贺阳飞' in 'where clause'
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM `te_lesson` WHERE ( name =贺阳飞 ) LIMIT 1  
+
+[ 2018-04-29T16:38:52+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: Think\Model:esc方法不存在！
+
+[ 2018-04-29T16:39:47+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'esc' at line 1
+ [ SQL语句 ] : SELECT `id`,`name` FROM `te_teacher` WHERE ( name != 'admin' ) ORDER BY id esc 
+

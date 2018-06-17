@@ -1,0 +1,789 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="3ade03d7-95c5-445b-95a2-bb2f02faf6d0" name="Default" comment="" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="teacher-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Teacher/teacher-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1950">
+              <caret line="75" selection-start-line="75" selection-end-line="75" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="TeacherController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TeacherController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3068">
+              <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="AdminController.class.php" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="26">
+              <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson-add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Lesson/lesson-add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2938">
+              <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lsign-add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Lsign/lsign-add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1768">
+              <caret line="78" selection-start-line="78" selection-end-line="78" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book-add.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Book/book-add.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3744">
+              <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="lesson-list.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Lesson/lesson-list.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1066">
+              <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="GsignController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GsignController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="338">
+              <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="3614">
+              <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="57" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LessonController.class.php" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/LessonController.class.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2418">
+              <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>img</find>
+      <find>WdatePicker</find>
+      <find>Admin/</find>
+      <find>会员</find>
+      <find>static</find>
+      <find>lib</find>
+      <find>layer.show</find>
+      <find>layer</find>
+      <find>添加</find>
+      <find>location.reload();</find>
+      <find>btn-refresh</find>
+      <find>static/</find>
+      <find>lib/</find>
+      <find>a_id</find>
+      <find>$Gsign</find>
+      <find>gsign</find>
+      <find>lsign</find>
+      <find>$zhuanzhu</find>
+      <find>$zhaunli</find>
+      <find>$paper</find>
+      <find>$kyget</find>
+      <find>$keyan</find>
+      <find>zhaunli</find>
+      <find>$reward</find>
+      <find>$honour</find>
+      <find>`</find>
+      <find>$id</find>
+      <find>textarea-length</find>
+      <find>dropDown dropDown_hover</find>
+      <find>DataTables_Table_0_filter</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>__ADMIN</replace>
+      <replace>Admin/static/</replace>
+      <replace>__ADMIN__/</replace>
+      <replace>__ADMIN__/static/</replace>
+      <replace>__ADMIN__/lib/</replace>
+      <replace>$Lsign</replace>
+      <replace>lsign</replace>
+      <replace>Book</replace>
+      <replace>tchange</replace>
+      <replace>$Zhuanzhu</replace>
+      <replace>$Zhuanli</replace>
+      <replace>$Paper</replace>
+      <replace>$Kyget</replace>
+      <replace>$Keyan</replace>
+      <replace>zhuanli</replace>
+      <replace>$Reward</replace>
+      <replace>$Honour</replace>
+    </replaceStrings>
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Application/Admin/View/Zhuanzhu/zhuanzhu-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Zhuanli/zhuanli-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Reward/reward-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Honour/honour-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/CommonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/ZhuanliController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/TchangeController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/RewardController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/KeyanController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/HonourController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/BookController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/LsignController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/PaperController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/ZhuanzhuController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Paper/paper-add.html" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Org/Yufan/Excel.class.php" />
+        <option value="$PROJECT_DIR$/ThinkPHP/Library/Org/Util/PHPExcel/Cell/DataType.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Tj/tj-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Teacher/email.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Teacher/setting.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Common/function.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Gsign/gsign-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Gsign/gsign-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Lsign/lsign-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Tchange/tchange-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Paper/paper-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Keyan/keyan-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Zhuanli/zhuanli-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Zhuanzhu/zhuanzhu-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Book/book-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Reward/reward-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Honour/honour-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Teacher/teacher-edit.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Teacher/teacher-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/tj-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/SettingController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/TJ/zhuanli-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/TJ/set.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/TJ/set_show.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/TJ/tj-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/TJ/score.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/TjController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Index/index.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Lesson/lesson-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/LessonController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Lesson/lesson-list.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/GsignController.class.php" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Lsign/lsign-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/View/Book/book-add.html" />
+        <option value="$PROJECT_DIR$/Application/Admin/Controller/TeacherController.class.php" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="260" />
+    <option name="y" value="20" />
+    <option name="width" value="1400" />
+    <option name="height" value="990" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Controller" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Book" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Index" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lesson" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Lsign" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+            <path>
+              <item name="teacher" type="b2602c69:ProjectViewProjectNode" />
+              <item name="teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Application" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Admin" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="View" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="Teacher" type="2a2b976b:PhpTreeStructureProvider$1" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="HbShouldOpenHtmlAsHb" value="" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../lar_wxapp" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\TJ" />
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\Index" />
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\Gsign" />
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\Lesson" />
+      <recent name="C:\Php\Web\teacher\Public\Admin" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\TJ" />
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\Setting" />
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\Teacher" />
+      <recent name="C:\Php\Web\teacher" />
+      <recent name="C:\Php\Web\teacher\Application\Admin\View\Tj" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="3ade03d7-95c5-445b-95a2-bb2f02faf6d0" name="Default" comment="" />
+      <created>1520772170996</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1520772170996</updated>
+      <workItem from="1520772172164" duration="4312000" />
+      <workItem from="1520811272610" duration="13000" />
+      <workItem from="1520944602981" duration="21000" />
+      <workItem from="1521178254827" duration="2943000" />
+      <workItem from="1521419684971" duration="195000" />
+      <workItem from="1521681568613" duration="1108000" />
+      <workItem from="1521983911741" duration="38000" />
+      <workItem from="1521983978590" duration="12031000" />
+      <workItem from="1521996548755" duration="166000" />
+      <workItem from="1522076710690" duration="3660000" />
+      <workItem from="1522161255680" duration="4833000" />
+      <workItem from="1522237384571" duration="4295000" />
+      <workItem from="1522646022663" duration="175000" />
+      <workItem from="1522646245127" duration="1165000" />
+      <workItem from="1522647473057" duration="647000" />
+      <workItem from="1522675524309" duration="8079000" />
+      <workItem from="1522744530626" duration="616000" />
+      <workItem from="1522760437293" duration="4400000" />
+      <workItem from="1523021764215" duration="5956000" />
+      <workItem from="1523107515889" duration="2734000" />
+      <workItem from="1523166775585" duration="38000" />
+      <workItem from="1523542958138" duration="2675000" />
+      <workItem from="1523882884819" duration="15000" />
+      <workItem from="1524460666682" duration="4681000" />
+      <workItem from="1524490763465" duration="4196000" />
+      <workItem from="1524751318326" duration="1016000" />
+      <workItem from="1524827419412" duration="599000" />
+      <workItem from="1524842672304" duration="56000" />
+      <workItem from="1524842741423" duration="68000" />
+      <workItem from="1524967854718" duration="16251000" />
+      <workItem from="1525270049372" duration="618000" />
+      <workItem from="1525667568446" duration="1027000" />
+      <workItem from="1525861320692" duration="4175000" />
+      <workItem from="1526735137836" duration="3470000" />
+      <workItem from="1526787125128" duration="7370000" />
+      <workItem from="1526809547959" duration="757000" />
+      <workItem from="1527079128837" duration="741000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="105140000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.20911528" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="11" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="right" id="Database" order="3" />
+      <window_info anchor="bottom" id="Database Changes" order="12" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="10" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Command Line Tools Console" order="9" weight="0.32896653" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32751092" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TeacherController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3068">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Tchange/tchange-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="146" column="24" selection-start-line="146" selection-start-column="24" selection-end-line="146" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/BookController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="36" selection-start-line="11" selection-start-column="36" selection-end-line="11" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/HonourController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2180">
+          <caret line="84" column="30" selection-start-line="84" selection-start-column="30" selection-end-line="84" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/KeyanController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1790">
+          <caret line="69" column="29" selection-start-line="69" selection-start-column="29" selection-end-line="69" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/LsignController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/PaperController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="37" selection-start-line="11" selection-start-column="37" selection-end-line="11" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/RewardController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2158">
+          <caret line="83" column="30" selection-start-line="83" selection-start-column="30" selection-end-line="83" selection-end-column="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ZhuanliController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2180">
+          <caret line="84" column="31" selection-start-line="84" selection-start-column="31" selection-end-line="84" selection-end-column="31" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/ZhuanzhuController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="11" column="40" selection-start-line="11" selection-start-column="40" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Zhuanzhu/zhuanzhu-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1326">
+          <caret line="72" column="14" selection-start-line="72" selection-start-column="14" selection-end-line="72" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Org/Util/PHPExcel/Autoloader.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-628">
+          <caret line="36" column="3" selection-start-line="36" selection-start-column="3" selection-end-line="36" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ThinkPHP/Library/Org/Yufan/Excel.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="61" column="85" selection-start-line="61" selection-start-column="85" selection-end-line="61" selection-end-column="85" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Mail/email.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="24" lean-forward="true" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/CommonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="10" column="61" lean-forward="true" selection-start-line="10" selection-start-column="61" selection-end-line="10" selection-end-column="61" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Teacher/setting.html" />
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Common/function.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="36" column="33" selection-start-line="36" selection-start-column="33" selection-end-line="36" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Gsign/gsign-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="433">
+          <caret line="72" column="73" selection-start-line="72" selection-start-column="73" selection-end-line="72" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Lsign/lsign-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Gsign/gsign-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-468">
+          <caret line="69" column="27" selection-end-line="138" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Tchange/tchange-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="94" column="9" selection-start-line="94" selection-start-column="9" selection-end-line="94" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Keyan/keyan-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="40" column="60" selection-start-line="40" selection-start-column="60" selection-end-line="40" selection-end-column="60" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Zhuanli/zhuanli-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Zhuanzhu/zhuanzhu-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Book/book-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Reward/reward-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="104">
+          <caret line="40" column="59" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Honour/honour-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="156">
+          <caret line="87" selection-start-line="87" selection-end-line="97" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Teacher/email.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="684">
+          <caret line="89" column="21" selection-start-line="89" selection-start-column="21" selection-end-line="89" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Teacher/teacher-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="858">
+          <caret line="57" column="11" lean-forward="true" selection-start-line="57" selection-start-column="11" selection-end-line="57" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/SettingController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="30" lean-forward="true" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Teacher/teacher-edit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="494">
+          <caret line="106" column="14" lean-forward="true" selection-start-line="96" selection-start-column="4" selection-end-line="106" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Zhuanli/zhuanli-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-84">
+          <caret line="81" column="14" lean-forward="true" selection-start-line="73" selection-start-column="4" selection-end-line="81" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TchangeController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="22">
+          <caret line="53" selection-start-line="53" selection-end-line="63" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/TJ/set_show.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="97" column="33" selection-start-line="97" selection-start-column="33" selection-end-line="97" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/TJ/set.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="358">
+          <caret line="28" column="55" selection-start-line="28" selection-start-column="55" selection-end-line="28" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Paper/paper-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="123" column="16" selection-start-line="123" selection-start-column="16" selection-end-line="123" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Paper/paper-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="166" column="16" selection-start-line="166" selection-start-column="16" selection-end-line="166" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/TJ/score.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="424">
+          <caret line="38" column="91" selection-start-line="38" selection-start-column="91" selection-end-line="38" selection-end-column="91" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/TJ/tj-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="416">
+          <caret line="81" column="74" selection-start-line="81" selection-start-column="74" selection-end-line="81" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TjController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="438">
+          <caret line="38" column="72" selection-start-line="38" selection-start-column="72" selection-end-line="38" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/IndexController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="182">
+          <caret line="7" column="25" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/LessonController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2418">
+          <caret line="93" column="33" selection-start-line="93" selection-start-column="33" selection-end-line="93" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Index/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3614">
+          <caret line="139" column="8" selection-start-line="139" selection-start-column="8" selection-end-line="139" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Lesson/lesson-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2938">
+          <caret line="113" column="14" selection-start-line="113" selection-start-column="14" selection-end-line="113" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Lesson/lesson-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1066">
+          <caret line="41" column="17" selection-start-line="41" selection-start-column="17" selection-end-line="41" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/GsignController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="338">
+          <caret line="13" column="24" selection-start-line="13" selection-start-column="24" selection-end-line="13" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Lsign/lsign-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1768">
+          <caret line="78" selection-start-line="78" selection-end-line="78" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Book/book-add.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3744">
+          <caret line="149" column="16" selection-start-line="149" selection-start-column="16" selection-end-line="149" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/View/Teacher/teacher-list.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1950">
+          <caret line="75" selection-start-line="75" selection-end-line="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/TeacherController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3068">
+          <caret line="118" column="24" selection-start-line="118" selection-start-column="24" selection-end-line="118" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Application/Admin/Controller/AdminController.class.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="26">
+          <caret line="20" column="29" selection-start-line="20" selection-start-column="29" selection-end-line="20" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

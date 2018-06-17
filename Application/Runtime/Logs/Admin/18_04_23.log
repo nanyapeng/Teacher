@@ -1,0 +1,169 @@
+[ 2018-04-23T13:18:12+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000420s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000703s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0199s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0108s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-04-23T13:48:07+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000725s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0335s ]
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='0',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`remark`='																		' WHERE `id` = 1 [ RunTime:0.0042s ]
+
+[ 2018-04-23T13:48:39+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000861s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0169s ]
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='0',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`remark`='																											' WHERE `id` = 1 [ RunTime:0.0018s ]
+
+[ 2018-04-23T13:50:12+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001008s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0164s ]
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='0',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`remark`='																																				' WHERE `id` = 1 [ RunTime:0.0022s ]
+
+[ 2018-04-23T13:51:06+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000758s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0156s ]
+
+[ 2018-04-23T13:57:35+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000761s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0159s ]
+NOTIC: [2] Missing argument 1 for Admin\Controller\PaperController::upload(), called in C:\Php\Web\teacher\Application\Admin\Controller\PaperController.class.php on line 71 and defined C:\Php\Web\teacher\Application\Admin\Controller\PaperController.class.php 第 37 行.
+NOTIC: [2] Missing argument 2 for Admin\Controller\PaperController::upload(), called in C:\Php\Web\teacher\Application\Admin\Controller\PaperController.class.php on line 71 and defined C:\Php\Web\teacher\Application\Admin\Controller\PaperController.class.php 第 37 行.
+
+[ 2018-04-23T13:58:21+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000470s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000763s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0154s ]
+
+[ 2018-04-23T13:59:08+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001099s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0223s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-04-23T14:01:00+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000646s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001083s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0160s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-04-23T14:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000983s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001625s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0156s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-04-23T14:02:06+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001631s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0215s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-04-23T14:02:49+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000642s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001034s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0160s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-04-23T14:04:12+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000663s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001107s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0157s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+
+[ 2018-04-23T14:26:17+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000829s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0153s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='0',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`remark`='																																													',`file`='Uploads/Paper/2018-04-23/5add7c89d23de.pdf' WHERE `id` = 1 [ RunTime:0.0019s ]
+
+[ 2018-04-23T21:41:58+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000452s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000768s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0089s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-23T21:43:16+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000578s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001044s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0138s ]
+NOTIC: [8] Undefined index: file C:\Php\Web\teacher\Application\Admin\Controller\PaperController.class.php 第 47 行.
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='zz',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`file`='',`remark`='																																																						' WHERE `id` = 1 [ RunTime:0.0021s ]
+
+[ 2018-04-23T21:56:19+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000752s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0140s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_paper` SET `teacher`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='zz',`keyword`='雷繁真的皮',`num`='6000',`publish`='咸阳师范学院出版社',`time`='2018-04-02',`remark`='																																																															',`file`='Uploads/Paper/2018-04-23/5adde60347cc2.pdf' WHERE `id` = 1 [ RunTime:0.0018s ]
+
+[ 2018-04-23T22:06:13+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanli/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000778s ]
+SQL: SHOW COLUMNS FROM `te_zhuanli` [ RunTime:0.0140s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_zhuanli` SET `name`='郭新明',`title`='咸阳师范学院课本外观专利',`code`='111111111',`type`='外观专利',`time`='2018-04-03',`remark`='																		',`file`='Uploads/Zhuanli/2018-04-23/5adde8550da26.jpg' WHERE `id` = 2 [ RunTime:0.0020s ]
+
+[ 2018-04-23T22:17:57+08:00 ] 127.0.0.1 /index.php/Admin/Book/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000751s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0138s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_book` SET `teacher`='郭新明',`title`='php从入门到放弃',`author`='郭新明，贺阳飞 ',`isbn`='1222222221',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`remark`='																																													' WHERE `id` = 1 [ RunTime:0.0018s ]
+
+[ 2018-04-23T22:19:14+08:00 ] 127.0.0.1 /index.php/Admin/Book/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000567s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000949s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0137s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_book` SET `teacher`='郭新明',`title`='php从入门到放弃',`author`='郭新明，贺阳飞 ',`isbn`='1222222221',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`remark`='																																																						',`file`='Uploads/Book/2018-04-23/5addeb6229995.pdf' WHERE `id` = 1 [ RunTime:0.0020s ]
+
+[ 2018-04-23T22:19:19+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-23T22:19:37+08:00 ] 127.0.0.1 /index.php/Admin/submatch/index.html
+ERR: 无法加载控制器:Submatch
+
+[ 2018-04-23T23:00:26+08:00 ] 127.0.0.1 /index.php/Admin/Reward/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000433s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000718s ]
+SQL: SHOW COLUMNS FROM `te_reward` [ RunTime:0.0137s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_reward` SET `name`='郭新明',`title`='论雷繁有多皮',`deep`='二等奖',`content`='现金2000元',`time`='2018-04-03',`remark`='																											',`file`='Uploads/Reward/2018-04-23/5addf50a616e8.jpg' WHERE `id` = 2 [ RunTime:0.0017s ]
+
+[ 2018-04-23T23:16:34+08:00 ] 127.0.0.1 /index.php/Admin/Honour/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000721s ]
+SQL: SHOW COLUMNS FROM `te_honour` [ RunTime:0.0138s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_honour` SET `name`='郭新明',`title`='三八红旗手',`time`='2017-03-07',`remark`='																		',`file`='Uploads/Honour/2018-04-23/5addf8d263f8b.jpg' WHERE `id` = 1 [ RunTime:0.0019s ]
+

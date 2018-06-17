@@ -1,0 +1,48 @@
+[ 2018-03-22T09:19:09+08:00 ] 127.0.0.1 /index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000967s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001626s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0168s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0152s ]
+SQL: SELECT * FROM `te_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0019s ]
+
+[ 2018-03-22T09:32:29+08:00 ] 127.0.0.1 /index.php/admin/U('admin/logout')
+ERR: 无法加载控制器:U('admin
+
+[ 2018-03-22T09:32:54+08:00 ] 127.0.0.1 /index.php/admin/U('admin/logout')
+ERR: 无法加载控制器:U('admin
+
+[ 2018-03-22T09:32:55+08:00 ] 127.0.0.1 /index.php/admin/U('admin/logout')
+ERR: 无法加载控制器:U('admin
+
+[ 2018-03-22T09:33:04+08:00 ] 127.0.0.1 /index.php/admin/%7BU('admin/logout')%7D
+ERR: 无法加载控制器:{U('admin
+
+[ 2018-03-22T09:35:03+08:00 ] 127.0.0.1 /index.php/Admin/Power/logout.html
+ERR: 无法加载控制器:Power
+
+[ 2018-03-22T09:35:12+08:00 ] 127.0.0.1 /index.php/Admin/Power/logout.html
+ERR: 无法加载控制器:Power
+
+[ 2018-03-22T09:35:22+08:00 ] 127.0.0.1 /index.php/Admin/Power/logout.html
+ERR: 无法加载控制器:Power
+
+[ 2018-03-22T09:36:23+08:00 ] 127.0.0.1 /index.php/admin/login
+ERR: 无法加载控制器:Login
+
+[ 2018-03-22T09:36:45+08:00 ] 127.0.0.1 /index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000481s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000826s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0068s ]
+SQL: SELECT * FROM `te_admin` WHERE ( username='ihege' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-22T09:37:51+08:00 ] 127.0.0.1 /index.php/admin/admin/login
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000451s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0065s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0064s ]
+SQL: SELECT * FROM `te_admin` WHERE ( username='ihege' ) LIMIT 1   [ RunTime:0.0003s ]
+

@@ -1,0 +1,69 @@
+[ 2018-05-22T08:24:25+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000722s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001184s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0461s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0342s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0011s ]
+
+[ 2018-05-22T08:24:46+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000619s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001066s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0178s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0084s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-05-22T08:51:03+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000634s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001095s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0181s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0159s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-22T09:05:04+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000781s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001370s ]
+
+[ 2018-05-22T09:05:11+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001403s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002395s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0376s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-22T09:06:25+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000805s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0232s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0140s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-05-22T09:47:23+08:00 ] 127.0.0.1 /index.php/Admin/Zhuanli/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000351s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000596s ]
+SQL: SHOW COLUMNS FROM `te_zhuanli` [ RunTime:0.0116s ]
+NOTIC: [8] Undefined index: file C:\Php\Web\teacher\Application\Admin\Controller\ZhuanliController.class.php 第 46 行.
+SQL: UPDATE `te_zhuanli` SET `name`='郭新明',`title`='咸阳师范学院课本外观专利',`code`='111111111',`type`='外观专利',`time`='2018-04-03',`file`='',`remark`='																											' WHERE `id` = 2 [ RunTime:0.0027s ]
+
+[ 2018-05-22T10:58:07+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000423s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0240s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0176s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-05-22T15:15:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000327s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0288s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0053s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0014s ]
+

@@ -1,0 +1,36 @@
+windows服务器
+
+ip：211.159.153.68   
+用户名：Administrator
+密码：jqzdcswL2017
+
+netos  FTP
+211.159.153.68
+xiaofeifei
+xiaofeifei123
+
+wechat  FTP
+211.159.153.68
+xiaofei
+xiaofei123
+
+注册邮箱：
+wayfiretech_hyf@163.com
+HE23563f
+23563F
+
+
+wayfiretech
+
+附近商超账号
+
+fireflyonline   
+fireflyonlinetuhuokeji
+
+
+SVN:
+netos: https://211.159.153.68/svn/cloud/
+tuhuo_cityshop: https://211.159.153.68/svn/tuhuo_cityshop/
+
+账号：hyf
+密码：123456

@@ -1,0 +1,93 @@
+[ 2018-04-03T21:01:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000648s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0147s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-03T21:01:21+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:01:27+08:00 ] 127.0.0.1 /index.php/Admin/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2018-04-03T21:01:28+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:01:28+08:00 ] 127.0.0.1 /index.php/Admin/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2018-04-03T21:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:01:29+08:00 ] 127.0.0.1 /index.php/Admin/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2018-04-03T21:01:30+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:01:30+08:00 ] 127.0.0.1 /index.php/Admin/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2018-04-03T21:01:52+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:01:53+08:00 ] 127.0.0.1 /index.php/Admin/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2018-04-03T21:01:53+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:01:54+08:00 ] 127.0.0.1 /index.php/Admin/Book/index.html
+ERR: 无法加载控制器:Book
+
+[ 2018-04-03T21:03:52+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:50:59+08:00 ] 127.0.0.1 /index.php/Admin/Teach/index.html
+ERR: 无法加载控制器:Teach
+
+[ 2018-04-03T21:51:02+08:00 ] 127.0.0.1 /index.php/Admin/Tchange/index.html
+ERR: 1146:Table 'teacher.te_tchange' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_tchange`
+
+[ 2018-04-03T21:51:05+08:00 ] 127.0.0.1 /index.php/Admin/Book/index.html
+ERR: 1146:Table 'teacher.te_book' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `te_book`
+
+[ 2018-04-03T22:32:01+08:00 ] 127.0.0.1 /index.php/Admin/Tchange/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000459s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000715s ]
+SQL: SHOW COLUMNS FROM `te_tchange` [ RunTime:0.0182s ]
+SQL: INSERT INTO `te_tchange` (`name`,`id`,`title`,`money`,`time`,`remark`) VALUES ('郭新明','0','高效提升学生动手能力改革项目','30000','2017-04-06','									') [ RunTime:0.0017s ]
+
+[ 2018-04-03T22:32:44+08:00 ] 127.0.0.1 /index.php/Admin/Tchange/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000502s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000793s ]
+SQL: SHOW COLUMNS FROM `te_tchange` [ RunTime:0.0133s ]
+SQL: INSERT INTO `te_tchange` (`name`,`id`,`title`,`money`,`time`,`remark`) VALUES ('赵娟','0','提升代码编写能力','20000','2018-01-16','									') [ RunTime:0.0019s ]
+
+[ 2018-04-03T22:33:06+08:00 ] 127.0.0.1 /index.php/Admin/Tchange/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000482s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000747s ]
+SQL: SHOW COLUMNS FROM `te_tchange` [ RunTime:0.0123s ]
+SQL: UPDATE `te_tchange` SET `name`='赵娟',`title`='提升代码编写能力',`money`='22000',`time`='2018-01-16',`remark`='																		' WHERE `id` = 2 [ RunTime:0.0025s ]
+
+[ 2018-04-03T22:34:40+08:00 ] 127.0.0.1 /index.php/Admin/Book/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000429s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000672s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0135s ]
+SQL: INSERT INTO `te_book` (`teacher`,`id`,`title`,`isbn`,`cate`,`version`,`page`,`num`,`publish`,`time`,`remark`) VALUES ('郭新明','0','php从入门到放弃','1222222222','科学计算机','第二版','1000','50000','人民教育出版社','2016-04-11','									') [ RunTime:0.0019s ]
+
+[ 2018-04-03T22:34:48+08:00 ] 127.0.0.1 /index.php/Admin/Book/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000431s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000673s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0129s ]
+SQL: UPDATE `te_book` SET `teacher`='郭新明',`title`='php从入门到放弃',`isbn`='122222222111',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`remark`='																		' WHERE `id` = 1 [ RunTime:0.0020s ]
+

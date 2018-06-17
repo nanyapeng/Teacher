@@ -1,0 +1,85 @@
+[ 2018-05-19T17:51:17+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000300s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000503s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0095s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0041s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0006s ]
+
+[ 2018-05-19T21:04:47+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000504s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0236s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0079s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin`' ) LIMIT 1   [ RunTime:0.0008s ]
+
+[ 2018-05-19T21:05:00+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0130s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-19T21:18:36+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000294s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000505s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0119s ]
+SQL: UPDATE `te_lesson` SET `name`='周小波',`title`='高等数学',`code`='11111101',`score`='5',`exam`='2',`class`='物联1401',`classroom`='3-309,1-206',`time`='周一,周三',`start`='第1周',`end`='第15周',`avg_score`='78',`remark`='														' WHERE `id` = 2 [ RunTime:0.0054s ]
+
+[ 2018-05-19T21:18:47+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0139s ]
+SQL: UPDATE `te_lesson` SET `name`='郭新明',`title`='物联网导论',`code`='111111111',`score`='3',`exam`='2',`class`='物联1402',`classroom`='3-109,1-209',`time`='周二,周四',`start`='第三周',`end`='第15周',`avg_score`='67',`remark`='														' WHERE `id` = 1 [ RunTime:0.0019s ]
+
+[ 2018-05-19T21:21:54+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000314s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0133s ]
+SQL: UPDATE `te_gsign` SET `stu_name`='贺阳飞',`num_id`='1410104107',`class`='物联1401',`phone`='17629016177',`title`='教师业绩信息管理系统',`name`='郭新明',`score`='90',`remark`='																											' WHERE `id` = 5 [ RunTime:0.0018s ]
+
+[ 2018-05-19T21:22:00+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0128s ]
+SQL: UPDATE `te_gsign` SET `stu_name`='雷繁',`num_id`='1410104105',`class`='物联网工程1401',`phone`='18291004121',`title`='网上商城设计与实现',`name`='赵娟',`score`='70',`remark`='																		' WHERE `id` = 2 [ RunTime:0.0018s ]
+
+[ 2018-05-19T21:35:11+08:00 ] 127.0.0.1 /index.php/Admin/Setting/email.html
+ERR: 无法加载控制器:Setting
+
+[ 2018-05-19T21:38:45+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000302s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0131s ]
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `te_setting` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-19T21:45:26+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0124s ]
+SQL: UPDATE `te_teacher` SET `gender`='1',`birthday`='1995-02-24',`phone`='17629016177',`email`='17629016177@163.com',`address`='科技四路南窑头东区',`study`='2',`deep`='1',`jointime`='2017-03-27',`remark`='这是最屌的老师' WHERE `id` = 2 [ RunTime:0.0017s ]
+
+[ 2018-05-19T21:46:31+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/setting.html
+ERR: 非法操作:setting
+
+[ 2018-05-19T21:47:47+08:00 ] 127.0.0.1 /index.php/Admin/Tj/index.html
+ERR: 模板不存在:./Application/Admin/View/Tj/tj-list.html
+
+[ 2018-05-19T21:48:26+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/setting.html
+ERR: 非法操作:setting
+
+[ 2018-05-19T21:48:45+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/setting.html
+ERR: 非法操作:setting
+
+[ 2018-05-19T21:50:00+08:00 ] 127.0.0.1 /index.php/Admin/Setting/set.html
+ERR: 非法操作:set
+

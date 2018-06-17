@@ -1,0 +1,131 @@
+[ 2018-04-07T21:29:02+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000651s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0213s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0076s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-04-07T21:29:12+08:00 ] 127.0.0.1 /index.php/admin/product-brand.html
+ERR: 无法加载控制器:Product-brand
+
+[ 2018-04-07T21:33:10+08:00 ] 127.0.0.1 /index.php/Admin/Reward/index.html
+ERR: 无法加载控制器:Reward
+
+[ 2018-04-07T21:33:12+08:00 ] 127.0.0.1 /index.php/Admin/Honour/index.html
+ERR: 无法加载控制器:Honour
+
+[ 2018-04-07T21:33:13+08:00 ] 127.0.0.1 /index.php/Admin/Reward/index.html
+ERR: 无法加载控制器:Reward
+
+[ 2018-04-07T21:33:13+08:00 ] 127.0.0.1 /index.php/Admin/Honour/index.html
+ERR: 无法加载控制器:Honour
+
+[ 2018-04-07T21:33:14+08:00 ] 127.0.0.1 /index.php/Admin/Reward/index.html
+ERR: 无法加载控制器:Reward
+
+[ 2018-04-07T21:41:16+08:00 ] 127.0.0.1 /index.php/Admin/Honour/index.html
+ERR: 无法加载控制器:Honour
+
+[ 2018-04-07T21:48:36+08:00 ] 127.0.0.1 /index.php/Admin/Honour/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000452s ]
+SQL: SHOW COLUMNS FROM `te_honour` [ RunTime:0.0121s ]
+SQL: INSERT INTO `te_honour` (`name`,`id`,`title`,`time`,`remark`) VALUES ('郭新明','0','三八红旗手','2017-03-07','									') [ RunTime:0.0019s ]
+
+[ 2018-04-07T21:52:53+08:00 ] 127.0.0.1 /index.php/admin/product-brand.html
+ERR: 无法加载控制器:Product-brand
+
+[ 2018-04-07T21:52:54+08:00 ] 127.0.0.1 /index.php/admin/product-brand.html
+ERR: 无法加载控制器:Product-brand
+
+[ 2018-04-07T21:54:37+08:00 ] 127.0.0.1 /index.php/admin/admin-permission.html
+ERR: 无法加载控制器:Admin-permission
+
+[ 2018-04-07T21:54:38+08:00 ] 127.0.0.1 /index.php/admin/admin-list.html
+ERR: 无法加载控制器:Admin-list
+
+[ 2018-04-07T21:54:38+08:00 ] 127.0.0.1 /index.php/admin/admin-permission.html
+ERR: 无法加载控制器:Admin-permission
+
+[ 2018-04-07T21:54:40+08:00 ] 127.0.0.1 /index.php/admin/admin-permission.html
+ERR: 无法加载控制器:Admin-permission
+
+[ 2018-04-07T21:54:42+08:00 ] 127.0.0.1 /index.php/admin/charts-1.html
+ERR: 无法加载控制器:Charts-1
+
+[ 2018-04-07T21:54:43+08:00 ] 127.0.0.1 /index.php/admin/charts-2.html
+ERR: 无法加载控制器:Charts-2
+
+[ 2018-04-07T21:54:43+08:00 ] 127.0.0.1 /index.php/admin/charts-3.html
+ERR: 无法加载控制器:Charts-3
+
+[ 2018-04-07T21:54:44+08:00 ] 127.0.0.1 /index.php/admin/charts-4.html
+ERR: 无法加载控制器:Charts-4
+
+[ 2018-04-07T22:03:38+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000469s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0118s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name = '郭新明' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [2] Illegal string offset 'password' C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 26 行.
+SQL: INSERT INTO `te_teacher` (`name`,`password`) VALUES ('郭新明','c4ca4238a0b923820dcc509a6f75849b') [ RunTime:0.0018s ]
+
+[ 2018-04-07T22:03:51+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000459s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0124s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='郭新明' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-07T22:03:54+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000554s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000974s ]
+
+[ 2018-04-07T22:04:25+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000466s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0118s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-07T22:07:10+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/changepassword/id/6.html
+ERR: Call to a member function where() on string
+
+[ 2018-04-07T22:07:36+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/index.html
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2018-04-07T22:07:38+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/index.html
+ERR: syntax error, unexpected '->' (T_OBJECT_OPERATOR), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$'
+
+[ 2018-04-07T22:07:49+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/changepassword/id/6.html
+ERR: Call to a member function getField() on string
+
+[ 2018-04-07T22:08:50+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/changepassword/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000554s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0120s ]
+SQL: UPDATE `te_teacher` SET `password`='e10adc3949ba59abbe56e057f20f883e' WHERE `id` = 6 [ RunTime:0.0016s ]
+
+[ 2018-04-07T22:09:21+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000443s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0132s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0077s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='郭新明' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-04-07T22:09:30+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/index.html
+ERR: 1054:Unknown column '郭新明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `te_gsign` WHERE ( Teacher=郭新明 ) 
+
+[ 2018-04-07T22:09:37+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/index.html
+ERR: 1054:Unknown column '郭新明' in 'where clause'
+ [ SQL语句 ] : SELECT * FROM `te_gsign` WHERE ( Teacher=郭新明 ) 
+

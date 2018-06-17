@@ -1,0 +1,148 @@
+[ 2018-05-09T18:29:54+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0295s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0075s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0030s ]
+
+[ 2018-05-09T18:56:07+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/7.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000359s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0186s ]
+
+[ 2018-05-09T18:58:41+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000332s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000576s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0126s ]
+
+[ 2018-05-09T18:58:46+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0182s ]
+
+[ 2018-05-09T18:59:25+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000311s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000537s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0186s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001107s ]
+INFO: [ app_end ] --END-- [ RunTime:0.001236s ]
+
+[ 2018-05-09T19:00:17+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000493s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0128s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.001893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.002035s ]
+
+[ 2018-05-09T19:01:22+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000394s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0184s ]
+
+[ 2018-05-09T19:01:53+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0124s ]
+SQL: UPDATE `te_teacher` SET `gender`='1',`birthday`='1995-02-24',`phone`='17629016177',`email`='1969788109q@163.com',`address`='科技四路南窑头东区',`study`='2',`jointime`='2017-03-27',`remark`='这是最屌的老师' WHERE `id` = 2 [ RunTime:0.0034s ]
+
+[ 2018-05-09T19:01:58+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000495s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0126s ]
+
+[ 2018-05-09T19:02:32+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000348s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000625s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0132s ]
+SQL: UPDATE `te_teacher` SET `gender`='1',`birthday`='1995-02-24',`phone`='17629016177',`email`='1969788109@qq.com',`address`='科技四路南窑头东区',`study`='2',`jointime`='2017-03-27',`remark`='这是最屌的老师' WHERE `id` = 2 [ RunTime:0.0016s ]
+
+[ 2018-05-09T19:02:36+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000358s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000620s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0188s ]
+
+[ 2018-05-09T19:06:26+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0137s ]
+SQL: UPDATE `te_teacher` SET `gender`='1',`birthday`='1995-02-24',`phone`='17629016177',`email`='17629016177@163.com',`address`='科技四路南窑头东区',`study`='2',`jointime`='2017-03-27',`remark`='这是最屌的老师' WHERE `id` = 2 [ RunTime:0.0054s ]
+
+[ 2018-05-09T19:06:42+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000285s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0123s ]
+
+[ 2018-05-09T19:08:05+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000290s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000498s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0188s ]
+
+[ 2018-05-09T19:08:12+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0128s ]
+
+[ 2018-05-09T19:08:31+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000381s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000681s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0125s ]
+
+[ 2018-05-09T19:08:46+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000520s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001039s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0132s ]
+
+[ 2018-05-09T19:08:59+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000344s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000591s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0185s ]
+
+[ 2018-05-09T19:24:48+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/setting.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000334s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000583s ]
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0124s ]
+
+[ 2018-05-09T19:26:06+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/setting.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+NOTIC: [8] Array to string conversion C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 134 行.
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0184s ]
+NOTIC: [8] Array to string conversion C:\Php\Web\teacher\Application\Admin\Controller\TeacherController.class.php 第 134 行.
+
+[ 2018-05-09T19:26:59+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/setting.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000579s ]
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0127s ]
+SQL: INSERT INTO `te_setting` (`address`,`username`,`password`,`email`,`id`,`nickname`) VALUES ('smtp.163.com','phper_hyf','23563F','phper_hyf@163.com','0','咸阳师范学院计算机学院') [ RunTime:0.0024s ]
+
+[ 2018-05-09T19:31:10+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000288s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0205s ]
+SQL: SHOW COLUMNS FROM `te_setting` [ RunTime:0.0100s ]
+SQL: SELECT * FROM `te_setting` LIMIT 1   [ RunTime:0.0002s ]
+

@@ -1,0 +1,370 @@
+[ 2018-05-21T07:06:03+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000378s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+
+[ 2018-05-21T07:06:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000373s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000638s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0050s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-21T07:16:57+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/edit/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001284s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002211s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0200s ]
+SQL: UPDATE `te_lesson` SET `name`='贺阳飞',`title`='mysql与php',`code`='133321221',`score`='40',`exam`='2',`class`='物联1402',`classroom`='3-304,3-216',`time`='周三，周五',`start`='第二周',`end`='第二周',`remark`='														' WHERE `id` = 4 [ RunTime:0.0039s ]
+
+[ 2018-05-21T07:20:24+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.001296s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.002264s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0201s ]
+SQL: UPDATE `te_lesson` SET `name`='贺阳飞',`title`='php从入门到放弃',`code`='12345665',`score`='42',`exam`='1',`class`='物联1401',`classroom`='1-302,3-312',`time`='周二,周四',`start`='第三周',`end`='第十二周',`remark`='														' WHERE `id` = 3 [ RunTime:0.0018s ]
+
+[ 2018-05-21T07:20:38+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000813s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0205s ]
+SQL: UPDATE `te_lesson` SET `name`='周小波',`title`='高等数学',`code`='11111101',`score`='50',`exam`='1',`class`='物联1401',`classroom`='3-309,1-206',`time`='周一,周三',`start`='第1周',`end`='第15周',`remark`='																					' WHERE `id` = 2 [ RunTime:0.0021s ]
+
+[ 2018-05-21T07:20:49+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000838s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001733s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0216s ]
+SQL: UPDATE `te_lesson` SET `name`='郭新明',`title`='物联网导论',`code`='111111111',`score`='46',`exam`='1',`class`='物联1402',`classroom`='3-109,1-209',`time`='周二,周四',`start`='第三周',`end`='第15周',`remark`='																					' WHERE `id` = 1 [ RunTime:0.0027s ]
+
+[ 2018-05-21T07:25:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000379s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000645s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0066s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-21T07:27:36+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000940s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0213s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0173s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0010s ]
+
+[ 2018-05-21T07:28:05+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-05-21T07:28:11+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000397s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000684s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0112s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0049s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-21T08:58:08+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000656s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001118s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0340s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0177s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0014s ]
+
+[ 2018-05-21T08:58:34+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000603s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001038s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0316s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0147s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0009s ]
+
+[ 2018-05-21T08:58:41+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000648s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001117s ]
+
+[ 2018-05-21T08:58:48+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000422s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000722s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0170s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0080s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0005s ]
+
+[ 2018-05-21T09:09:59+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000672s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001135s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0391s ]
+SQL: UPDATE `te_gsign` SET `name`='贺阳飞',`num_id`='1410104105',`class`='物联1401',`phone`='18291004121',`title`='网上商城系统的设计与实现',`score`='91',`remark`='																											' WHERE `id` = 6 [ RunTime:0.0037s ]
+
+[ 2018-05-21T09:12:20+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000718s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001211s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0296s ]
+SQL: UPDATE `te_gsign` SET `name`='贺阳飞',`num_id`='1410104105',`class`='物联1401',`phone`='18291004121',`title`='网上商城系统的设计与实现',`deep_paper`='2',`score`='91',`remark`='																																				' WHERE `id` = 6 [ RunTime:0.0022s ]
+
+[ 2018-05-21T09:27:38+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/6.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000343s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000588s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0126s ]
+SQL: UPDATE `te_gsign` SET `name`='赵娟',`stu_name`='雷繁',`num_id`='1410104105',`class`='物联1401',`phone`='18291004121',`title`='网上商城系统的设计与实现',`deep_paper`='2',`score`='91',`remark`='																																													' WHERE `id` = 6 [ RunTime:0.0051s ]
+
+[ 2018-05-21T09:27:47+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000564s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0217s ]
+SQL: UPDATE `te_gsign` SET `name`='郭新明',`stu_name`='贺阳飞',`num_id`='1410104107',`class`='物联1401',`phone`='17629016177',`title`='教师业绩信息管理系统',`deep_paper`='0',`score`='90',`remark`='																																				' WHERE `id` = 5 [ RunTime:0.0019s ]
+
+[ 2018-05-21T09:32:05+08:00 ] 127.0.0.1 /index.php/Admin/Gsign/edit/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000678s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001146s ]
+SQL: SHOW COLUMNS FROM `te_gsign` [ RunTime:0.0225s ]
+SQL: UPDATE `te_gsign` SET `name`='郭新明',`stu_name`='贺阳飞',`num_id`='1410104107',`class`='物联1401',`phone`='17629016177',`title`='教师业绩信息管理系统',`deep_paper`='1',`score`='90',`remark`='																																													' WHERE `id` = 5 [ RunTime:0.0015s ]
+
+[ 2018-05-21T09:41:25+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000744s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001330s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0179s ]
+SQL: UPDATE `te_lsign` SET `name`='郭新明',`title`='移动物联网安卓app设计与实现',`num_id`='1410104107',`class`='物联网工程1401',`phone`='17629016177',`sign_name`='安卓计算器应用设计与实现',`stu_name`='贺阳飞',`score`='0',`start`='2017-04-03',`end`='2017-04-07',`remark`='										这个学生好屌啊															' WHERE `id` = 1 [ RunTime:0.0018s ]
+
+[ 2018-05-21T09:42:13+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001101s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0337s ]
+SQL: UPDATE `te_lsign` SET `name`='李小林',`title`='移动物联网安卓的设计与实现',`num_id`='1410104108',`class`='物联1401',`phone`='17629016177',`sign_name`='计算器设计和实现',`stu_name`='张宇',`score`='78',`start`='2018-04-02',`end`='2018-04-06',`remark`='																											' WHERE `id` = 3 [ RunTime:0.0057s ]
+
+[ 2018-05-21T09:42:22+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000868s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001472s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0165s ]
+SQL: UPDATE `te_lsign` SET `name`='李小林',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104108',`class`='物联1401',`phone`='17629016177',`sign_name`='计算器设计和实现',`stu_name`='张宇',`score`='78',`start`='2018-04-02',`end`='2018-04-06',`remark`='																																				' WHERE `id` = 3 [ RunTime:0.0016s ]
+
+[ 2018-05-21T09:42:33+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000610s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0214s ]
+SQL: UPDATE `te_lsign` SET `name`='郭新明',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104107',`class`='物联网工程1401',`phone`='17629016177',`sign_name`='安卓计算器应用设计与实现',`stu_name`='贺阳飞',`score`='0',`start`='2017-04-03',`end`='2017-04-07',`remark`='															这个学生好屌啊																			' WHERE `id` = 1 [ RunTime:0.0027s ]
+
+[ 2018-05-21T09:42:56+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000744s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0177s ]
+SQL: UPDATE `te_lsign` SET `name`='李小林',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104108',`class`='物联1401',`phone`='17629016177',`sign_name`='计算器设计和实现',`stu_name`='王宇',`score`='78',`start`='2018-04-02',`end`='2018-04-06',`remark`='																																													' WHERE `id` = 3 [ RunTime:0.0018s ]
+
+[ 2018-05-21T09:43:09+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000565s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000986s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0104s ]
+SQL: UPDATE `te_lsign` SET `name`='贺阳飞',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104106',`class`='物联1401',`phone`='13212124443',`sign_name`='',`stu_name`='张洁',`score`='91',`start`='2017-04-17',`end`='2017-04-21',`remark`='																		' WHERE `id` = 5 [ RunTime:0.0012s ]
+
+[ 2018-05-21T09:43:13+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000677s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001161s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0096s ]
+SQL: UPDATE `te_lsign` SET `name`='贺阳飞',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104105',`class`='物联1402',`phone`='18291004121',`sign_name`='',`stu_name`='雷繁',`score`='93',`start`='2017-04-17',`end`='2017-04-21',`remark`='																																				' WHERE `id` = 4 [ RunTime:0.0019s ]
+
+[ 2018-05-21T09:43:49+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000664s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001139s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0173s ]
+SQL: UPDATE `te_lsign` SET `name`='李小林',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104108',`class`='物联1401',`phone`='17629016177',`sign_name`='手机播放器的设计与实现',`stu_name`='王宇',`score`='78',`start`='2018-04-02',`end`='2018-04-06',`remark`='																																																						' WHERE `id` = 3 [ RunTime:0.0018s ]
+
+[ 2018-05-21T09:43:58+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001070s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0174s ]
+SQL: UPDATE `te_lsign` SET `name`='贺阳飞',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104105',`class`='物联1402',`phone`='18291004121',`sign_name`='手机播放器的设计与实现',`stu_name`='雷繁',`score`='93',`start`='2017-04-17',`end`='2017-04-21',`remark`='																																													' WHERE `id` = 4 [ RunTime:0.0017s ]
+
+[ 2018-05-21T09:44:02+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000492s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000903s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0120s ]
+SQL: UPDATE `te_lsign` SET `name`='贺阳飞',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104106',`class`='物联1401',`phone`='13212124443',`sign_name`='手机播放器的设计与实现',`stu_name`='张洁',`score`='91',`start`='2017-04-17',`end`='2017-04-21',`remark`='																											' WHERE `id` = 5 [ RunTime:0.0014s ]
+
+[ 2018-05-21T09:44:11+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/5.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000376s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000635s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0119s ]
+SQL: UPDATE `te_lsign` SET `name`='李小林',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104106',`class`='物联1401',`phone`='13212124443',`sign_name`='手机播放器的设计与实现',`stu_name`='张洁',`score`='91',`start`='2017-04-17',`end`='2017-04-21',`remark`='																																				' WHERE `id` = 5 [ RunTime:0.0013s ]
+
+[ 2018-05-21T09:44:17+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000377s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0160s ]
+SQL: UPDATE `te_lsign` SET `name`='李小林',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104105',`class`='物联1402',`phone`='18291004121',`sign_name`='手机播放器的设计与实现',`stu_name`='雷繁',`score`='93',`start`='2017-04-17',`end`='2017-04-21',`remark`='																																																						' WHERE `id` = 4 [ RunTime:0.0018s ]
+
+[ 2018-05-21T09:44:28+08:00 ] 127.0.0.1 /index.php/Admin/Lsign/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000413s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000705s ]
+SQL: SHOW COLUMNS FROM `te_lsign` [ RunTime:0.0199s ]
+SQL: UPDATE `te_lsign` SET `name`='郭新明',`title`='移动物联网安卓app的设计与实现',`num_id`='1410104107',`class`='物联网工程1401',`phone`='17629016177',`sign_name`='安卓计算器应用设计与实现',`stu_name`='贺阳飞',`score`='95',`start`='2017-04-03',`end`='2017-04-07',`remark`='																				这个学生好屌啊																							' WHERE `id` = 1 [ RunTime:0.0017s ]
+
+[ 2018-05-21T09:53:01+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000468s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000970s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0103s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given C:\Php\Web\teacher\ThinkPHP\Library\Think\Upload.class.php 第 170 行.
+SQL: UPDATE `te_paper` SET `name`='贺阳飞',`title`='提升高校教师业绩管理水平',`author`='贺阳飞，雷繁',`type`='zz',`keyword`='教师，业绩，软件',`time`='2017(4)',`remark`='																																				',`file`='Uploads/Paper/2018-05-21/5b02267d38ed4.pdf' WHERE `id` = 2 [ RunTime:0.0018s ]
+
+[ 2018-05-21T09:53:16+08:00 ] 127.0.0.1 /index.php/Admin/Paper/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000504s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000869s ]
+SQL: SHOW COLUMNS FROM `te_paper` [ RunTime:0.0109s ]
+NOTIC: [8] Undefined index: file C:\Php\Web\teacher\Application\Admin\Controller\PaperController.class.php 第 47 行.
+SQL: UPDATE `te_paper` SET `name`='郭新明',`title`='论雷繁有多皮',`author`='郭新明，赵娟',`type`='zz',`keyword`='雷繁真的皮',`time`='2015(2)',`file`='',`remark`='																																																																																										' WHERE `id` = 1 [ RunTime:0.0015s ]
+
+[ 2018-05-21T09:58:31+08:00 ] 127.0.0.1 /index.php/Admin/Keyan/edit/id/4.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000654s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001183s ]
+SQL: SHOW COLUMNS FROM `te_keyan` [ RunTime:0.0174s ]
+SQL: UPDATE `te_keyan` SET `name`='贺阳飞',`title`='zigebee在无线通信领域的应用',`code`='1234567',`deep`='校级',`money`='10000',`start`='2017-03-11',`end`='2017-10-21',`remark`='																		' WHERE `id` = 4 [ RunTime:0.0019s ]
+
+[ 2018-05-21T09:58:49+08:00 ] 127.0.0.1 /index.php/Admin/Keyan/edit/id/3.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000985s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001555s ]
+SQL: SHOW COLUMNS FROM `te_keyan` [ RunTime:0.0113s ]
+SQL: UPDATE `te_keyan` SET `name`='郭新明',`title`='研究科研项目',`code`='111111',`deep`='国家级科研项目',`money`='100000',`start`='2018-04-02',`end`='2018-05-21',`remark`='																		' WHERE `id` = 3 [ RunTime:0.0017s ]
+
+[ 2018-05-21T10:21:29+08:00 ] 127.0.0.1 /index.php/Admin/zhuanzhu/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000338s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000569s ]
+SQL: SHOW COLUMNS FROM `te_zhuanzhu` [ RunTime:0.0144s ]
+SQL: UPDATE `te_zhuanzhu` SET `name`='贺阳飞',`title`='php从入门到放弃',`author`='贺阳飞(著)',`isbn`='2113131311',`cate`='计算机，编程',`version`='1',`page`='5700',`num`='43221',`publish`='明日科技出版社',`time`='2016-02-11',`file`='',`remark`='																											' WHERE `id` = 2 [ RunTime:0.0018s ]
+
+[ 2018-05-21T10:21:41+08:00 ] 127.0.0.1 /index.php/Admin/zhuanzhu/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000473s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000897s ]
+SQL: SHOW COLUMNS FROM `te_zhuanzhu` [ RunTime:0.0156s ]
+SQL: UPDATE `te_zhuanzhu` SET `name`='郭新明',`title`='php从入门到放弃',`author`='郭新明(著)',`isbn`='1222222221',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`file`='',`remark`='																																																															' WHERE `id` = 1 [ RunTime:0.0015s ]
+
+[ 2018-05-21T10:21:52+08:00 ] 127.0.0.1 /index.php/Admin/zhuanzhu/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000570s ]
+SQL: SHOW COLUMNS FROM `te_zhuanzhu` [ RunTime:0.0112s ]
+SQL: UPDATE `te_zhuanzhu` SET `name`='郭新明',`title`='php从入门到精通',`author`='郭新明(著)',`isbn`='1222222221',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`file`='',`remark`='																																																																								' WHERE `id` = 1 [ RunTime:0.0016s ]
+
+[ 2018-05-21T10:22:20+08:00 ] 127.0.0.1 /index.php/Admin/Book/edit/id/1.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000614s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001141s ]
+SQL: SHOW COLUMNS FROM `te_book` [ RunTime:0.0147s ]
+NOTIC: [8] Undefined index: file C:\Php\Web\teacher\Application\Admin\Controller\BookController.class.php 第 47 行.
+SQL: UPDATE `te_book` SET `name`='郭新明',`title`='php从入门到精通',`author`='郭新明，贺阳飞 ',`isbn`='1222222221',`cate`='科学计算机',`version`='第二版',`page`='1000',`num`='50000',`publish`='人民教育出版社',`time`='2016-04-11',`file`='',`remark`='																																																															' WHERE `id` = 1 [ RunTime:0.0016s ]
+
+[ 2018-05-21T10:36:02+08:00 ] 127.0.0.1 /index.php/Admin/Reward/edit/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000658s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001219s ]
+SQL: SHOW COLUMNS FROM `te_reward` [ RunTime:0.0140s ]
+NOTIC: [8] Undefined index: file C:\Php\Web\teacher\Application\Admin\Controller\RewardController.class.php 第 46 行.
+SQL: UPDATE `te_reward` SET `name`='郭新明',`title`='论雷繁有多皮',`deep`='校级科研项目',`get_deep`='特等奖',`content`='现金2000元',`time`='2018-04-03',`file`='',`remark`='																																				' WHERE `id` = 2 [ RunTime:0.0015s ]
+
+[ 2018-05-21T10:39:06+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000529s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000906s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0393s ]
+SQL: UPDATE `te_teacher` SET `name`='赵娟',`gender`='2',`birthday`='2018-05-21',`phone`='17629016177',`email`='1337585852@qq.com',`address`='asdasdasad',`study`='1',`deep`='1',`jointime`='2018-05-21',`remark`='' WHERE `id` = 9 [ RunTime:0.0024s ]
+
+[ 2018-05-21T10:39:23+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000415s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000683s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0159s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0154s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0007s ]
+
+[ 2018-05-21T10:40:53+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/edit/id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000370s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000637s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0141s ]
+SQL: UPDATE `te_teacher` SET `name`='赵娟',`gender`='2',`birthday`='2018-05-21',`phone`='17629016177',`email`='18392508219@163.com',`address`='asdasdasad',`study`='1',`deep`='1',`jointime`='2018-05-21',`remark`='' WHERE `id` = 9 [ RunTime:0.0016s ]
+
+[ 2018-05-21T10:41:07+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000411s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000697s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0183s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0127s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-21T10:43:52+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000472s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000802s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0130s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-21T10:44:07+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/8.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000357s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000612s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0134s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0074s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-05-21T10:44:33+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000643s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001079s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0241s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0128s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-21T10:46:22+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/9.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000712s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001180s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0177s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0126s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-05-21T10:46:54+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000666s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001123s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0167s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0082s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0002s ]
+
+[ 2018-05-21T10:47:38+08:00 ] 127.0.0.1 /index.php/Admin/Teacher/email/id/2.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000405s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000714s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0140s ]
+SQL: SHOW COLUMNS FROM `te_email` [ RunTime:0.0078s ]
+SQL: SELECT * FROM `te_email` LIMIT 1   [ RunTime:0.0002s ]
+

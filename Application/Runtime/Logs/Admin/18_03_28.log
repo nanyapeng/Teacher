@@ -1,0 +1,111 @@
+[ 2018-03-28T19:44:16+08:00 ] 127.0.0.1 /index.php/Admin/Admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000494s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000843s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0208s ]
+SQL: SHOW COLUMNS FROM `te_admin` [ RunTime:0.0087s ]
+SQL: SELECT * FROM `te_admin` WHERE ( username='admin' ) LIMIT 1   [ RunTime:0.0027s ]
+
+[ 2018-03-28T19:45:34+08:00 ] 127.0.0.1 /index.php/admin/article-add.html
+ERR: 无法加载控制器:Article-add
+
+[ 2018-03-28T19:45:38+08:00 ] 127.0.0.1 /index.php/admin/article-add.html
+ERR: 无法加载控制器:Article-add
+
+[ 2018-03-28T19:52:20+08:00 ] 127.0.0.1 /index.php/admin/article-add.html
+ERR: 无法加载控制器:Article-add
+
+[ 2018-03-28T20:29:06+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000621s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001098s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+
+[ 2018-03-28T20:30:05+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000787s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0077s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='admin' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username C:\Php\Web\teacher\Application\Admin\Model\TeacherModel.class.php 第 26 行.
+
+[ 2018-03-28T20:30:42+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000471s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000842s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-28T20:30:49+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000569s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000972s ]
+
+[ 2018-03-28T20:31:01+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000830s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0084s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0071s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-28T20:31:52+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000478s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000855s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0138s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+NOTIC: [8] Undefined index: username C:\Php\Web\teacher\Application\Admin\Model\TeacherModel.class.php 第 26 行.
+
+[ 2018-03-28T20:33:07+08:00 ] 127.0.0.1 /index.php/admin/admin/login.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000454s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000771s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0081s ]
+SQL: SHOW COLUMNS FROM `te_teacher` [ RunTime:0.0073s ]
+SQL: SELECT * FROM `te_teacher` WHERE ( name='贺阳飞' ) LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-03-28T20:35:55+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000438s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000731s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0072s ]
+SQL: SELECT * FROM `te_lesson` WHERE ( code = '111111111' ) LIMIT 1   [ RunTime:0.0005s ]
+ERR: 1048:Column 't_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `te_lesson` (`name`,`code`,`score`,`exam`,`classroom`,`time`,`start`,`end`,`remark`,`t_id`) VALUES ('物联网导论','111111111','3','1','3-109,1-209','周二,周四','第三周','第15周','',NULL)
+ERR: 1048:Column 't_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `te_lesson` (`name`,`code`,`score`,`exam`,`classroom`,`time`,`start`,`end`,`remark`,`t_id`) VALUES ('物联网导论','111111111','3','1','3-109,1-209','周二,周四','第三周','第15周','',NULL)
+
+[ 2018-03-28T20:36:02+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000480s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000789s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0136s ]
+SQL: SELECT * FROM `te_lesson` WHERE ( code = '111111111' ) LIMIT 1   [ RunTime:0.0003s ]
+ERR: 1048:Column 't_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `te_lesson` (`name`,`code`,`score`,`exam`,`classroom`,`time`,`start`,`end`,`remark`,`t_id`) VALUES ('物联网导论','111111111','3','1','3-109,1-209','周二,周四','第三周','第15周','',NULL)
+ERR: 1048:Column 't_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `te_lesson` (`name`,`code`,`score`,`exam`,`classroom`,`time`,`start`,`end`,`remark`,`t_id`) VALUES ('物联网导论','111111111','3','1','3-109,1-209','周二,周四','第三周','第15周','',NULL)
+
+[ 2018-03-28T20:36:53+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000499s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000874s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0094s ]
+SQL: SELECT * FROM `te_lesson` WHERE ( code = '111111111' ) LIMIT 1   [ RunTime:0.0004s ]
+ERR: 1048:Column 't_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `te_lesson` (`name`,`code`,`score`,`exam`,`classroom`,`time`,`start`,`end`,`remark`,`t_id`) VALUES ('物联网导论','111111111','3','1','3-109,1-209','周二,周四','第三周','第15周','',NULL)
+ERR: 1048:Column 't_id' cannot be null
+ [ SQL语句 ] : INSERT INTO `te_lesson` (`name`,`code`,`score`,`exam`,`classroom`,`time`,`start`,`end`,`remark`,`t_id`) VALUES ('物联网导论','111111111','3','1','3-109,1-209','周二,周四','第三周','第15周','',NULL)
+
+[ 2018-03-28T20:38:08+08:00 ] 127.0.0.1 /index.php/Admin/Lesson/add.html
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000475s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000836s ]
+SQL: SHOW COLUMNS FROM `te_lesson` [ RunTime:0.0141s ]
+SQL: SELECT * FROM `te_lesson` WHERE ( code = '111111111' ) LIMIT 1   [ RunTime:0.0003s ]
+SQL: INSERT INTO `te_lesson` (`name`,`code`,`score`,`exam`,`classroom`,`time`,`start`,`end`,`remark`,`t_id`) VALUES ('物联网导论','111111111','3','1','3-109,1-209','周二,周四','第三周','第15周','','2') [ RunTime:0.0019s ]
+
